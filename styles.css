@@ -1,26 +1,37 @@
-
-
-
 body {
   margin: auto;
+  font-family: open-sans, sans-serif;
   text-align: center;
-  background-color: #fafafa;
+}
+
+h1 {
+  background: linear-gradient(pink, purple);
+  padding:100px;
+  color: white;
   
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 .app {
-  background: #fafafa;
   padding: 30px;
   height: 100vh;
+  background: white;
+  
 }
 
 .todo-list{
-  background: bg-gradient-primary;
+  background: #fafafa;
   border-radius: 8px;
-  padding: 8px;
+  padding: 20px;
   max-width: 400px;
   margin: auto;
+  z-index: 2;
+  margin-top: -120px;
+  box-shadow: 0px 0px 9px rgba(0,0,0, 0.3);
  
 }
 
@@ -45,5 +56,5 @@ body {
   box-shadow: none;
   padding: 1rem;
   height: 2.25em;
-  font-size: 24px;
+  font-size: 18px;
 }
