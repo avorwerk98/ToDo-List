@@ -8,11 +8,6 @@ body {
   
 }
 
-code {
-  font-family: "Josefin Sans", sans-serif;
-}
-
-
 
 .app {
   background: #fafafa;
@@ -21,7 +16,7 @@ code {
 }
 
 .todo-list{
-  background: text-gradient text-primary;
+  background: bg-gradient-primary;
   border-radius: 8px;
   padding: 8px;
   max-width: 400px;
