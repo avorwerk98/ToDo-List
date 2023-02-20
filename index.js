@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.css';
+
 function App(){
   const [todos, setTodos] = React.useState([
     {
