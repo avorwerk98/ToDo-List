@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
-
 function Todo({todo,index,remove}){
   function handle(){
     console.log('Ping:',index);
