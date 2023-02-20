@@ -22,7 +22,7 @@ code {
 }
 
 .todo-list{
-  background: primary-gradient;
+  background: text-gradient text-primary;
   border-radius: 8px;
   padding: 8px;
   max-width: 400px;
