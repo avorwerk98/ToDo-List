@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
-
 // user input - includes validation
 function TodoForm({addTodo}){
   const [value,setValue] = React.useState('');
